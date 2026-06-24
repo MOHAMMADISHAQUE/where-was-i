@@ -1,71 +1,63 @@
-# where-was-i README
+# Where Was I?
 
-This is the README for your extension "where-was-i". After writing up a brief description, we recommend including the following sections.
+Never lose context between coding sessions again.
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+**Where Was I** is a VS Code extension that saves your exact work state before you close — and brings you back to it instantly the next day.
 
 ---
 
-## Following extension guidelines
+## The Problem
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+You're deep in a bug fix. Files open, cursor in the right place, mental context loaded. You close VS Code.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+Next morning: blank slate. 15–30 minutes rebuilding what you already knew.
 
-## Working with Markdown
+## The Solution
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Where Was I saves your session and shows you a clean summary the moment you reopen your project.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+---
 
-## For more information
+## Features
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Session Sidebar
+A dedicated panel in the activity bar shows your last session at a glance — no commands, no popups.
 
-**Enjoy!**
+- **Task note** — what you were working on, findings, next steps
+- **Project & branch** — which repo and git branch you were on
+- **Open files** — every file you had open, with the active file highlighted
+- **Last cursor position** — exactly which line you were editing
+
+### One-Click Resume
+Click **Resume Session** to reopen all your files and jump your cursor back to the exact line you left off.
+
+### Inline Task Editing
+Click your task note directly in the sidebar to edit it — no input boxes, no command palette.
+
+### Save New Session
+When you're done for the day, click **Save New Session**, type what you were doing, and close VS Code. That's it.
+
+---
+
+## How to Use
+
+1. Open a project in VS Code
+2. Click the **bookmark icon** in the left activity bar
+3. Your last session appears in the sidebar
+4. Click **Resume Session** to restore everything
+5. Before closing, click **Save New Session** and leave yourself a note
+
+---
+
+## Requirements
+
+- VS Code 1.125.0 or higher
+- No API keys, no accounts, no internet connection required
+- Works fully offline — all data stored locally on your machine
+
+---
+
+## Release Notes
+
+### 0.0.1
+Initial release — session save, resume dashboard, inline editing, sidebar view.
