@@ -2,6 +2,11 @@
 
 All notable changes to **Kahan Tha Main** will be documented here.
 
+## [0.0.4] - 2026-06-29
+
+### Fixed
+- Activity bar icon now uses SVG (correct mask rendering), marketplace uses PNG
+
 ## [0.0.3] - 2026-06-29
 
 ### Changed
