@@ -1,9 +1,17 @@
-# Change Log
+# Changelog
 
-All notable changes to the "where-was-i" extension will be documented in this file.
+All notable changes to **Kahan Tha Main** will be documented here.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1] - 2026-06-29
 
-## [Unreleased]
-
-- Initial release
+### Added
+- Multiple named sessions per project — save as many sessions as you want, each with its own name, files, branch, and cursor position
+- Auto-save on close — session is automatically updated when VS Code closes, no manual save needed
+- One-click Resume — reopens all files and jumps cursor to exact line
+- Session cards — each session shows branch, time ago, file count, and active file at a glance
+- Delete individual sessions with the trash button
+- 51 witty Hindi greetings on every VS Code open
+- Relative timestamps — "3 days ago", "yesterday", "2h ago"
+- Keyboard shortcut — `Cmd+Shift+S` (Mac) / `Ctrl+Shift+S` (Windows/Linux) to save session
+- Empty state with "Pehli baar aa gaye!" for first-time users
+- Pin + clock icon in the activity bar
