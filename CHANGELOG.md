@@ -2,6 +2,11 @@
 
 All notable changes to **Kahan Tha Main** will be documented here.
 
+## [0.0.2] - 2026-06-29
+
+### Changed
+- Updated README and CHANGELOG to reflect all features accurately
+
 ## [0.0.1] - 2026-06-29
 
 ### Added
