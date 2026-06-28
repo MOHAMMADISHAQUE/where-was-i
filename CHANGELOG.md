@@ -2,6 +2,11 @@
 
 All notable changes to **Kahan Tha Main** will be documented here.
 
+## [0.0.3] - 2026-06-29
+
+### Changed
+- New neon green + dark purple icon
+
 ## [0.0.2] - 2026-06-29
 
 ### Changed
