@@ -1,8 +1,8 @@
-# Where Was I?
+# Kahan Tha Main?
 
 Never lose context between coding sessions again.
 
-**Where Was I** is a VS Code extension that saves your exact work state before you close — and brings you back to it instantly the next day.
+**Kahan Tha Main** is a VS Code extension that saves your exact work state before you close — and brings you back to it instantly the next day.
 
 ---
 
@@ -11,10 +11,10 @@ Never lose context between coding sessions again.
 You're deep in a bug fix. Files open, cursor in the right place, mental context loaded. You close VS Code.
 
 Next morning: blank slate. 15–30 minutes rebuilding what you already knew.
-
+                                                        
 ## The Solution
 
-Where Was I saves your session and shows you a clean summary the moment you reopen your project.
+Kahan Tha Main saves your session and shows you a clean summary the moment you reopen your project.
 
 ---
 

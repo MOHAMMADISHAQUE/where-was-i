@@ -1,10 +1,10 @@
 {
-  "name": "where-was-i",
-  "displayName": "Where Was I",
+  "name": "kahan-tha-main",
+  "displayName": "Kahan Tha Main",
   "description": "Resume your coding session exactly where you left off",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.125.0"
+    "vscode": "^1.124.0"
   },
   "categories": [
     "Other"
@@ -15,25 +15,32 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "whereWasI",
-          "title": "Where Was I",
+          "id": "kahanThaMain",
+          "title": "Kahan Tha Main",
           "icon": "images/icon.svg"
         }
       ]
     },
     "views": {
-      "whereWasI": [
+      "kahanThaMain": [
         {
           "type": "webview",
-          "id": "whereWasI.sidebarView",
+          "id": "kahanThaMain.sidebarView",
           "name": "Session"
         }
       ]
     },
     "commands": [
       {
-        "command": "where-was-i.saveSession",
-        "title": "Where Was I: Save Session"
+        "command": "kahan-tha-main.saveSession",
+        "title": "Kahan Tha Main: Save Session"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "kahan-tha-main.saveSession",
+        "key": "ctrl+shift+s",
+        "mac": "cmd+shift+s"
       }
     ]
   },
@@ -46,7 +53,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.125.0",
+    "@types/vscode": "^1.124.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "24.x",
     "typescript-eslint": "^8.61.1",
